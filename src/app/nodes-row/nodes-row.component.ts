@@ -1,9 +1,10 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: '[app-nodes-row]',
   templateUrl: './nodes-row.component.html',
-  styleUrls: ['./nodes-row.component.css']
+  styleUrls: ['./nodes-row.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class NodesRowComponent {
   @Input() node: any;
