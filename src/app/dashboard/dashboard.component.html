@@ -1,3 +1,16 @@
-<p>
-  {{cluster1 | json}}
-</p>
+<div class="container mt-2">
+  <div class="row">
+    <app-metric class="col-sm-6" 
+      [used]="cpu.used" 
+      [available]="cpu.available" 
+      [title]="'CPU'" 
+      [description]="'utilization of CPU cores'">
+    </app-metric>
+    <app-metric class="col-sm-6" 
+      [used]="mem.used" 
+      [available]="mem.available"
+      [title]="'Memory'"
+      [description]="'utilization of memory in GB'">
+    </app-metric>
+  </div>
+</div>
