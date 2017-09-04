@@ -194,6 +194,11 @@
         "tsickle": "0.23.6"
       }
     },
+    "@ng-bootstrap/ng-bootstrap": {
+      "version": "1.0.0-beta.3",
+      "resolved": "https://registry.npmjs.org/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-1.0.0-beta.3.tgz",
+      "integrity": "sha1-wf3Y1yf1SDC21HDA2fn8MtRUlPk="
+    },
     "@ngtools/json-schema": {
       "version": "1.1.0",
       "resolved": "https://registry.npmjs.org/@ngtools/json-schema/-/json-schema-1.1.0.tgz",
@@ -923,6 +928,11 @@
       "requires": {
         "hoek": "2.16.3"
       }
+    },
+    "bootstrap": {
+      "version": "4.0.0-beta",
+      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-beta.tgz",
+      "integrity": "sha512-I/r3fYtUZr+rUNkh8HI+twxZ56p6ehNn27eA1XSebLVQKAJ2xZHnEvZrSR+UR2A/bONcd9gHC3xatVhQlH6R6w=="
     },
     "brace-expansion": {
       "version": "1.1.8",
@@ -5068,6 +5078,11 @@
       "integrity": "sha1-2llSddGuYx3nNqwKfH2Fyfc+9lI=",
       "dev": true
     },
+    "jquery": {
+      "version": "3.2.1",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
+      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c="
+    },
     "js-base64": {
       "version": "2.1.9",
       "resolved": "https://registry.npmjs.org/js-base64/-/js-base64-2.1.9.tgz",
@@ -6479,6 +6494,11 @@
       "requires": {
         "pinkie": "2.0.4"
       }
+    },
+    "popper.js": {
+      "version": "1.12.3",
+      "resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.12.3.tgz",
+      "integrity": "sha512-yeccDWm2ZYbygDVKJxkyMkwjsDAP5/AROns/nN4ofdMghouyHzu4p3r27nkRGAcQXSYZJ+dqgKug6viAhszfUg=="
     },
     "portfinder": {
       "version": "1.0.13",
